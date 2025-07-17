@@ -15,7 +15,7 @@ footer {
 .fa-brands{
     margin: 15px ;
     font-size: x-large;
-    color: black
+    color: darkgray;
 }
 ul{
     display: flex;
