@@ -1,0 +1,184 @@
+    header {
+    background-color: white;
+}
+footer {
+    background-color: rgb(120, 120, 120);
+    display: grid;
+    justify-content: center;
+    padding: 30px;
+}
+.img-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-brands{
+    margin: 15px ;
+    font-size: x-large;
+    color: black
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+}
+.Qui{ 
+    padding-right: 10px;
+}
+.coding{
+    padding-right: 10px;
+}
+.ai{
+ padding-right: 10px;
+}
+.cyber{
+    padding-right: 10px;
+}
+.innov{
+    padding-right: 10px;
+}
+.Education{
+    padding-right: 10px;
+}
+.contact{
+    padding-right: 10px;
+}
+body{
+    margin: 0px;
+    
+}
+main{
+        background-color: #0062FF;
+}
+.texte-accueil{
+    color: white;
+    margin: 10px;
+    font-size: large;
+}
+.container-flex{
+    padding:30px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-contact{
+    padding:30px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container-qsn{
+    padding:30px;
+    gap: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-visages{
+    background: url(https://laplateforme.io/wp-content/uploads/2021/07/HP_visual_light.jpg) no-repeat;
+    background-size: contain;
+     height: 500px;
+      display: flex;
+    margin: 0 auto;
+    width: 350px;
+
+}
+.w-50 {
+    width: 50%;
+   
+}
+.bouton-foot{
+    background-color: #E74A34;
+    color: white;
+}
+.bouton{
+    background-color: #E74A34;
+    height: 40px;
+    color: white;
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.bulletin{
+    padding-left: 10px;
+}
+.carte{
+    padding-left: 10px;
+}
+.formulaire {
+    background-color: white;
+    border-radius: 10px;
+}
+.envoyer{
+ background-color: #FE6B26;
+ border-radius: 10px;
+ color: white;
+ width: 400px;
+ height: 30px;
+ font-size: large;
+}
+.img-txt-contact{
+    flex-direction: column;
+    font-size: large;
+}
+h2{
+    color: white;
+}
+.fin-contact{
+    padding: 30px;
+}
+input {
+height: 20px;
+
+}
+.logos{
+    flex-direction: column;
+}
+.avoir{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+
+}
+.présentation{
+ padding: 30px;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:980px){
+    .container-flex {
+        display:inline;
+        
+    }
+    .container-contact{
+    display:inline;
+
+
+    }
+    .videos{
+        display: inline;
+    }
+    .avoir{
+            display:inline;
+
+    }
+
+    .w-50{
+        width: 100%;
+       
+    }
+}
