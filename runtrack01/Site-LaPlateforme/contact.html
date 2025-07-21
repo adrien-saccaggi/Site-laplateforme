@@ -40,21 +40,28 @@
             </div>
     <div class="formulaire">
     <form action="contact.html" method="post" style="margin:20px; padding: 20px;">
+        <div class="form0">
     <h1 style="font-size: 35px;">La Plateforme / Contact</h1>
         <p>« * » indique les champs nécessaires</p>
+        </div>
+        <div class="form1">
     <label for="Prefixe"></label>
 <select name="genre" id="Civilité">
   <option value="prefixe">Préfixe*</option>
   <option value="Mr.">Mr.</option>
   <option value="Mme">Mme.</option>
   <option value="Mx.">Mx.</option>
-  </select>
-  <input placeholder="prénom">
-  <input placeholder="nom">
-    <input size="20"; placeholder="E-mail*">
-      <input size="20"; placeholder="Téléphone Mobile*">
+  </select> 
+  <input size="10px" placeholder="prénom">
+  <input size="10px" placeholder="nom">
+        </div>
+        <div class="form2">
+    <input size="16px"; placeholder="E-mail*">
+      <input size="15px"; placeholder="Téléphone Mobile*">
+        </div>
+        <div class="form3">
       <label :for="motif de contact"></label>
-      <br><select name="motif" id="contact">
+      <select name="motif" id="contact">
       <option value="SÉLECTION">Sélectionner un motif de contact*</option>
       <option value="aide a l'orientation">Aide à l'orientation et informations sur les programmes</option>
       <option value="Relations entreprises">Relations Entreprises</option>
@@ -63,12 +70,17 @@
       <option value="RH">Recrutement RH</option>
       <option value="Taxe">Taxe d'apprentissage</option>
       <option value="Autre">Autre</option>
+      </div>
+      <div class="form4">
       </select>
-      <input style="width: 350px ;height: 100px; "placeholder="message*">
+      <textarea name="message"placeholder="message*"></textarea>
+      </div>
+      <div class="form5">
       <p><input type="checkbox">J'accepte de recevoir des informations de la part de La Plateforme
       <p style="font-size: x-small;">Selon l'article L.223-2 du code de la consommation, il est rappelé que le consommateur peut user de son droit à s'inscrire sur la liste d'opposition au démarchage téléphonique  
         <a href="https://www.bloctel.gouv.fr/">bloctel:bloctel.gouv.fr</a></p>
     <button class="envoyer"> ENVOYER </button>
+    </div>
     </href>
     </div>
     </form>
@@ -85,8 +97,10 @@
        <a href="https://www.instagram.com/LaPlateformeIO/" class="fa-brands fa-instagram"></a>
 </div>
     <footer>
+                <div class="img-footer">
    <img src="https://laplateforme.io/wp-content/uploads/2024/02/Fichier-1.svg" alt="logo-laplateforme"
    width="300px">
+   </div>
    <div class="icone">
 <a href="https://www.facebook.com/LaPlateformeIO" class="fa-brands fa-square-facebook"></a>
 <a href="https://www.instagram.com/LaPlateformeIO/" class="fa-brands fa-instagram"></a>
@@ -94,9 +108,23 @@
 <a href="https://twitter.com/LaPlateformeIO" class="fa-brands fa-twitter"></a>
 <a href="https://www.youtube.com/c/LaPlateformeIO" class="fa-brands fa-youtube"></a>
    </div>
-<button>Rejoignez nos équipes</button>
-<button class="bouton-foot">Télécharger la brochure</button>
+   <nav class="nav-foot">
+    <ul>
+    <li class="Qui"><a href="Qui-sommes-nous.html">Qui sommes nous ?</a></li>
+    <li class="coding"><a href="coding-school.html">Coding School</a></li>
+    <li class="ai"><a href="Ai-school.html">Intelligence artificielle</a></li>
+    <li class="cyber"><a href="cyber-security-school.html">Cybersecurité</a></li>
+    <li class="innov"><a href="Innovation-Lab.html">Innovation Lab</a></li>
+    <li class="Education"><a href="executive-education.html">Executive Education</a></li>
+    <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
+        </nav>
+        <div class="container center">
+<button class="w-200 bouton">Rejoignez nos équipes<svg class="chevron" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="m480-320 160-160-160-160-56 56 64 64H320v80h168l-64 64 56 56Zm0 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></button>
+<button class="w-200 bouton">Télécharger la brochure<svg class="chevron" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff"><path d="m480-320 160-160-160-160-56 56 64 64H320v80h168l-64 64 56 56Zm0 240q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg></button>
+</div>
 </footer>
+
 
 </body>
 </html>
