@@ -12,6 +12,7 @@ footer {
     justify-content: center;
 }
 
+
 .fa-brands{
     margin: 15px ;
     font-size: x-large;
@@ -23,12 +24,21 @@ ul{
     justify-content: end;
     list-style-type: none;
 }
-
-.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    list-style-type: none;
+.nav a{ 
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-foot a{
+   color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold; 
+}
+textarea{
+    width: 350px;
+    height: 100px;
 }
 .Qui{ 
     padding-right: 10px;
@@ -81,6 +91,9 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+.container{
+    display: block;
+}
 .image-visages{
     background: url(https://laplateforme.io/wp-content/uploads/2021/07/HP_visual_light.jpg) no-repeat;
     background-size: contain;
@@ -94,6 +107,11 @@ main{
     width: 50%;
    
 }
+.center{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 .bouton-foot{
     background-color: #E74A34;
     color: white;
@@ -102,11 +120,25 @@ main{
     background-color: #E74A34;
     height: 40px;
     color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.chevron{
+    display: block;
+    opacity: 0;
+    transform: translateX(-100%);
+    height: 40px;
+    padding: 10px;
+}
+.w-200{
+    width: 200px;
 }
 .icone{
     display: flex;
     justify-content: center;
     padding: 10px;
+    height: 50px;
 }
 .bulletin{
     padding-left: 10px;
@@ -141,7 +173,8 @@ height: 20px;
 
 }
 .logos{
-    flex-direction: column;
+    height: 60px;
+
 }
 .avoir{
     display:flex;
@@ -150,6 +183,23 @@ height: 20px;
     gap: 50px;
 
 }
+.certifications{
+    padding: 30px;
+    background-color: #F6F6F6;
+}
+.certif{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+
+}
+.certif2{
+     display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 100px;
+}
 .présentation{
  padding: 30px;
 }
@@ -157,6 +207,37 @@ height: 20px;
     display: flex;
     justify-content: center;
     justify-content: space-between;
+}
+.bouton:hover .chevron{
+
+opacity: 1;
+transform: translateX(0);
+transition: ease-in-out 0.4s;
+cursor: pointer;
+height: 40px;
+}
+.form0{
+    padding: 10px;
+}
+.form1{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin-left: -30px;
+}
+.form2{
+    display: flex;
+    gap: 22%;
+    padding: 10px;
+}
+.form3{
+    padding: 10px;
+}
+.form4{
+    padding: 10px;
+}
+.form5{
+    padding: 10px;
 }
 
 @media only screen and (max-width:980px){
@@ -169,6 +250,10 @@ height: 20px;
 
 
     }
+    .certifications{
+        display: inline;
+    }
+    
     .videos{
         display: inline;
     }
@@ -176,9 +261,15 @@ height: 20px;
             display:inline;
 
     }
+    ul{
+  display:inline;
 
+
+    }
     .w-50{
         width: 100%;
        
     }
+  
 }
+
